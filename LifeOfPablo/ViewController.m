@@ -253,7 +253,7 @@
     [rendererController setText2:[[self pabloView] text2]];
     UIImage * const image = [rendererController renderImageWithSize:600.0];
     
-    UIActivityViewController * const activityViewController = [[UIActivityViewController alloc] initWithActivityItems:@[[NSURL URLWithString:@"https://itunes.apple.com/us/app/id1084208414"], image] applicationActivities:nil];
+    UIActivityViewController * const activityViewController = [[UIActivityViewController alloc] initWithActivityItems:@[[NSURL URLWithString:@"https://itunes.apple.com/us/app/id##########"], image] applicationActivities:nil];
     [activityViewController setCompletionWithItemsHandler:^(NSString * __nullable activityType, BOOL completed, NSArray * __nullable returnedItems, NSError * __nullable activityError){
         
         [self setLockKeyboardHeight:NO];
